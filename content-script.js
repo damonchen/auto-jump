@@ -13,6 +13,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if(!!button) {
             button.click();
         }
+    } else if (host === 'weixin110.qq.com') {
+        var button = document.querySelector('.weui-btn_default')
+        if(!!button) {
+            button.click();
+        }
     }
 })
 
