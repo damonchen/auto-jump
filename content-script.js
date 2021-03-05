@@ -18,6 +18,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if(!!button) {
             button.click();
         }
+    } else if (host === 'www.oschina.net') {
+        var button = document.querySelector('.link-button')
+        if(!!button) {
+            button.click();
+        }
     }
 })
 
